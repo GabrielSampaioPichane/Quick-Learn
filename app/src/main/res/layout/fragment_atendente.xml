@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".Fragments.Atendimento.AtendenteFragment">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginTop="40dp"
+
+        android:text="@string/fale_conosco_abaixo"
+        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+
+        android:background="@drawable/shape_container_components"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="15dp"
+
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        >
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="120dp"
+
+         app:cardBackgroundColor="@color/black"
+        app:cardElevation="0dp"
+
+         android:layout_marginTop="20dp"
+         >
+
+         <TextView
+
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+             android:textSize="34sp"
+             android:text="Gabriel Sampaio Pichane
+                          (19) 99374 - 7439"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:gravity="center"
+
+             />
+
+     </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+
+            app:cardBackgroundColor="@color/black"
+            app:cardElevation="0dp"
+
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:textSize="34sp"
+                android:text="Eduardo Henrique Milam
+                          (19) 98864 - 9544"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+
+            app:cardBackgroundColor="@color/black"
+            app:cardElevation="0dp"
+
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:padding="10sp"
+                android:textSize="34sp"
+                android:text="Pedro Henrique Ivo
+                          (19) 97774 - 7439"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

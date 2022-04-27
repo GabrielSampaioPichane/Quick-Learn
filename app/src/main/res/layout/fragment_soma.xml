@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.CaculumFragments.SomaFragment">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+
+      android:background="@drawable/shape_container_components"
+
+      android:orientation="vertical"
+
+      android:padding="15sp"
+
+      >
+
+      <androidx.core.widget.NestedScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+
+       android:orientation="vertical"
+
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+
+       >
+
+       <TextView
+           android:id="@+id/text_titulo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ADIÇÃO E SUAS PROPRIEDADES"
+          android:textSize="24sp"
+          android:textStyle="bold"
+           android:textColor="@color/white"
+
+           android:gravity="center"
+
+
+
+           />
+
+       <TextView
+           android:id="@+id/text_0"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:layout_marginTop="10sp"
+
+           android:textSize="22sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+
+           android:gravity="center"
+           android:padding="10sp"
+
+           android:text="@string/a_adi_o_a_opera_o_matem_tica_que_re_ne_objetos_que_possuem_a_mesma_natureza_mas_que_est_o_em_dois_grupos_distintos_por_exemplo_jo_o_possu_a_uma_caixa_com_12_l_pis_de_cor_quando_chegou_em_casa_ganhou_de_seus_pais_uma_nova_caixa_com_outros_12_agora_ele_possui_24_l_pis_de_cor_nesse_exemplo_os_l_pis_foram_somados"
+           />
+
+       <TextView
+           android:id="@+id/text_1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:layout_marginTop="10sp"
+
+           android:textSize="22sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+
+           android:gravity="center"
+           android:padding="10sp"
+
+           android:text="@string/_1_a_ordem_em_que_dois_n_meros_s_o_somados_n_o_altera_o_resultado_da_soma_matematicamente_a_b_b_a_essa_propriedade_chamada_de_comutatividade"
+           />
+
+       <TextView
+           android:id="@+id/text_2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:layout_marginTop="10sp"
+
+           android:textSize="22sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+
+           android:gravity="center"
+           android:padding="10sp"
+
+           android:text="@string/_2_em_uma_soma_de_tr_s_n_meros_a_b_c_somar_a_b_e_depois_c_tem_o_mesmo_resultado_que_somar_b_c_e_depois_a_matematicamente_a_b_c_a_b_c_essa_propriedade_chamada_de_associatividade"
+           />
+
+       <TextView
+           android:id="@+id/text_3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:layout_marginTop="10sp"
+
+           android:textSize="22sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+
+           android:gravity="center"
+           android:padding="10sp"
+
+           android:text="@string/_3_existe_um_n_mero_chamado_de_elemento_neutro_nesse_caso_zero_que_n_o_influencia_o_resultado_da_soma_assim_a_0_0_a_a"
+           />
+
+       <TextView
+           android:id="@+id/text_4"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:layout_marginTop="10sp"
+
+           android:textSize="22sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+
+           android:gravity="center"
+           android:padding="10sp"
+
+           android:text="@string/_4_para_todo_n_mero_x_existe_um_n_mero_x_em_que_a_soma_entre_eles_igual_a_0_x_x_0_essa_ltima_propriedade_permite_compreender_a_subtra_o_como_uma_adi_o_de_inversos_aditivos_isso_de_certa_forma_permite_incluir_a_opera_o_subtra_o_na_opera_o_adi_o_tornando_as_uma_s_contudo_para_melhor_compreens_o_dos_alunos_esse_detalhe_pouco_mencionado_em_sala_de_aula_assim_a_subtra_o_77_42_pode_ser_vista_como_a_seguinte_adi_o_77_42"
+           />
+
+       <TextView
+           android:id="@+id/text_regras"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:layout_marginTop="10sp"
+
+           android:textSize="22sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+
+           android:gravity="center"
+           android:padding="10sp"
+
+           android:text="@string/por_isso_foram_criadas_regras_de_sinais_para_adi_o_de_n_meros_reais_que_s_o_as_seguintes_a_se_os_sinais_dos_n_meros_forem_positivos_o_resultado_da_soma_ser_positivo_b_se_os_sinais_dos_n_meros_forem_negativos_o_resultado_da_soma_ser_negativo_c_se_os_sinais_dos_n_meros_forem_diferentes_deveremos_diminu_los_e_manter_no_resultado_o_sinal_daquele_que_possui_o_maior_m_dulo_ou_seja_aquele_que_maior_independentemente_do_sinal_essas_regras_s_o_muito_substitu_das_em_sala_de_aula_pelo_seguinte_sinais_iguais_soma_e_conserva_sinais_diferentes_subtrai_e_conserva_o_sinal_do_maior"
+           />
+
+
+   </LinearLayout>
+
+  </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

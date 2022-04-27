@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_gaph"
+    app:startDestination="@id/mainFragment">
+
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.MainFragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_atendenteFragment"
+            app:destination="@id/atendenteFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_mainPortuguesFragment"
+            app:destination="@id/mainPortuguesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_mainGeografiaFragment"
+            app:destination="@id/mainGeografiaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/atendenteFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.Atendimento.AtendenteFragment"
+        android:label="fragment_atendente"
+        tools:layout="@layout/fragment_atendente" >
+        <action
+            android:id="@+id/action_atendenteFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/baskaraFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.BaskaraFragment"
+        android:label="fragment_baskara"
+        tools:layout="@layout/fragment_baskara" >
+        <action
+            android:id="@+id/action_baskaraFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/divisaoFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.DivisaoFragment"
+        android:label="fragment_divisao"
+        tools:layout="@layout/fragment_divisao" >
+        <action
+            android:id="@+id/action_divisaoFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/porenciaFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.PorenciaFragment"
+        android:label="fragment_elevacao"
+        tools:layout="@layout/fragment_elevacao" >
+        <action
+            android:id="@+id/action_porenciaFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/multiplicacaoFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.MultiplicacaoFragment"
+        android:label="fragment_multiplicacao"
+        tools:layout="@layout/fragment_multiplicacao" >
+        <action
+            android:id="@+id/action_multiplicacaoFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/raizFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.RaizFragment"
+        android:label="fragment_raiz"
+        tools:layout="@layout/fragment_raiz" >
+        <action
+            android:id="@+id/action_raizFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/somaFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.SomaFragment"
+        android:label="fragment_soma"
+        tools:layout="@layout/fragment_soma" >
+        <action
+            android:id="@+id/action_somaFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subtracaoFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.SubtracaoFragment"
+        android:label="fragment_subtracao"
+        tools:layout="@layout/fragment_subtracao" >
+        <action
+            android:id="@+id/action_subtracaoFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapasFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.Geografia.MapasFragment"
+        android:label="fragment_mapas"
+        tools:layout="@layout/fragment_mapas" >
+        <action
+            android:id="@+id/action_mapasFragment_to_mainGeografiaFragment"
+            app:destination="@id/mainGeografiaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ptNivel1Fragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.PortuguesFragment.PtNivel1Fragment"
+        android:label="fragment_pt_nivel1"
+        tools:layout="@layout/fragment_pt_nivel1" >
+        <action
+            android:id="@+id/action_ptNivel1Fragment_to_mainPortuguesFragment"
+            app:destination="@id/mainPortuguesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ptNivel2Fragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.PortuguesFragment.PtNivel2Fragment"
+        android:label="fragment_pt_nivel2"
+        tools:layout="@layout/fragment_pt_nivel2" >
+        <action
+            android:id="@+id/action_ptNivel2Fragment_to_mainPortuguesFragment"
+            app:destination="@id/mainPortuguesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ptNivel3Fragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.PortuguesFragment.PtNivel3Fragment"
+        android:label="fragment_pt_nivel3"
+        tools:layout="@layout/fragment_pt_nivel3" >
+        <action
+            android:id="@+id/action_ptNivel3Fragment_to_mainPortuguesFragment"
+            app:destination="@id/mainPortuguesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainGeografiaFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.Geografia.MainGeoFrag.MainGeografiaFragment"
+        android:label="fragment_main_geografia"
+        tools:layout="@layout/fragment_main_geografia" >
+        <action
+            android:id="@+id/action_mainGeografiaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainGeografiaFragment_to_mapasFragment"
+            app:destination="@id/mapasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainMatematicaFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.MainMatFrag.MainMatematicaFragment"
+        android:label="fragment_main_matematica"
+        tools:layout="@layout/fragment_main_matematica" >
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_porenciaFragment"
+            app:destination="@id/porenciaFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_multiplicacaoFragment"
+            app:destination="@id/multiplicacaoFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_somaFragment"
+            app:destination="@id/somaFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_raizFragment"
+            app:destination="@id/raizFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_divisaoFragment"
+            app:destination="@id/divisaoFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_baskaraFragment"
+            app:destination="@id/baskaraFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_subtracaoFragment"
+            app:destination="@id/subtracaoFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_minimoMaximoMultFragment"
+            app:destination="@id/minimoMaximoMultFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_frasaoFragment"
+            app:destination="@id/frasaoFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_distributivaFragment"
+            app:destination="@id/distributivaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainPortuguesFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.PortuguesFragment.MainPortFrag.MainPortuguesFragment"
+        android:label="fragment_main_portugues"
+        tools:layout="@layout/fragment_main_portugues" >
+        <action
+            android:id="@+id/action_mainPortuguesFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainPortuguesFragment_to_ptNivel2Fragment"
+            app:destination="@id/ptNivel2Fragment" />
+        <action
+            android:id="@+id/action_mainPortuguesFragment_to_ptNivel1Fragment"
+            app:destination="@id/ptNivel1Fragment" />
+        <action
+            android:id="@+id/action_mainPortuguesFragment_to_ptNivel3Fragment"
+            app:destination="@id/ptNivel3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/minimoMaximoMultFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.MinimoMaximoMultFragment"
+        android:label="fragment_minimo_maximo_mult"
+        tools:layout="@layout/fragment_minimo_maximo_mult" >
+        <action
+            android:id="@+id/action_minimoMaximoMultFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/frasaoFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.FrasaoFragment"
+        android:label="fragment_frasao"
+        tools:layout="@layout/fragment_frasao" >
+        <action
+            android:id="@+id/action_frasaoFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/distributivaFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.DistributivaFragment"
+        android:label="fragment_distributiva"
+        tools:layout="@layout/fragment_distributiva" >
+        <action
+            android:id="@+id/action_distributivaFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+
+
+</navigation>

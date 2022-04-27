@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.CaculumFragments.MainMatFrag.MainMatematicaFragment">
+
+    <TextView
+        android:id="@+id/top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+
+        android:text="@string/arraste_para_cima"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        app:drawableEndCompat="@drawable/ic_toparrow" />
+
+
+    <LinearLayout
+        android:id="@+id/container_category"
+
+        android:background="@drawable/shape_container_category"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="15dp"
+
+
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical"
+
+                >
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/bt_soma"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="120dp"
+
+                    android:background="@drawable/shape_container_components"
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="35sp"
+                        android:gravity="center"
+                        android:paddingHorizontal="20sp"
+                        android:text="@string/soma"
+                        android:textColor="@color/lime"
+
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bt_subtracao"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:textColor="@color/lime"
+                        android:textSize="35sp"
+                        android:text="@string/subtra_o"
+                        android:textStyle="bold"
+
+                        android:paddingHorizontal="20dp"
+                        android:layout_marginTop="35dp"
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bt_multiplicacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:textColor="@color/lime"
+                        android:textSize="35sp"
+                        android:text="@string/multiplica_o"
+                        android:textStyle="bold"
+
+                        android:paddingHorizontal="20dp"
+                        android:layout_marginTop="35dp"
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bt_divisão"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:textColor="@color/lime"
+                        android:textSize="35sp"
+                        android:text="@string/divis_o"
+                        android:textStyle="bold"
+
+                        android:paddingHorizontal="20sp"
+                        android:layout_marginTop="35sp"
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bt_potencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+
+                   android:padding="10sp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:textColor="@color/lime"
+                        android:textSize="35sp"
+                        android:text="@string/potencializa_o"
+                        android:textStyle="bold"
+
+                        android:padding="12sp"
+
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bt_raiz"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:textColor="@color/lime"
+                        android:textSize="35sp"
+                        android:text="@string/raiz"
+                        android:textStyle="bold"
+
+                        android:paddingHorizontal="20sp"
+                        android:layout_marginTop="35sp"
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bt_bhaskara"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+                        android:textColor="@color/lime"
+                        android:textSize="35sp"
+                        android:text="@string/bhaskara"
+                        android:textStyle="bold"
+
+                        android:paddingHorizontal="20sp"
+                        android:layout_marginTop="35sp"
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/bt_MinMaxMult"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="120dp"
+
+                    android:background="@drawable/shape_container_components"
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="center"
+                        android:padding="40sp"
+                        android:text="@string/maximo_e_minimo_multiplicador_comum"
+                        android:textColor="@color/lime"
+
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/bt_fracao"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="120dp"
+
+                    android:background="@drawable/shape_container_components"
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                         android:layout_marginTop="35dp"
+                        android:gravity="center"
+                        android:paddingHorizontal="25sp"
+                        android:text="@string/fra_o"
+                        android:textColor="@color/lime"
+
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/bt_distributiva"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="120dp"
+
+                    android:background="@drawable/shape_container_components"
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="35dp"
+                        android:gravity="center"
+                        android:paddingHorizontal="25sp"
+                        android:text="@string/distributiva"
+                        android:textColor="@color/lime"
+
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
