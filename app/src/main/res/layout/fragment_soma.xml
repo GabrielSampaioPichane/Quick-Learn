@@ -14,7 +14,7 @@
 
       android:orientation="vertical"
 
-      android:padding="15sp"
+      android:padding="20sp"
 
       >
 
@@ -155,6 +155,42 @@
            android:text="@string/por_isso_foram_criadas_regras_de_sinais_para_adi_o_de_n_meros_reais_que_s_o_as_seguintes_a_se_os_sinais_dos_n_meros_forem_positivos_o_resultado_da_soma_ser_positivo_b_se_os_sinais_dos_n_meros_forem_negativos_o_resultado_da_soma_ser_negativo_c_se_os_sinais_dos_n_meros_forem_diferentes_deveremos_diminu_los_e_manter_no_resultado_o_sinal_daquele_que_possui_o_maior_m_dulo_ou_seja_aquele_que_maior_independentemente_do_sinal_essas_regras_s_o_muito_substitu_das_em_sala_de_aula_pelo_seguinte_sinais_iguais_soma_e_conserva_sinais_diferentes_subtrai_e_conserva_o_sinal_do_maior"
            />
 
+       <androidx.cardview.widget.CardView
+
+           android:id="@+id/bt_videoSoma"
+
+           android:layout_width="match_parent"
+           android:layout_height="120dp"
+
+           android:background="@drawable/shape_container_components"
+
+           app:cardCornerRadius="20dp"
+           app:cardElevation="0dp"
+
+           android:layout_marginBottom="10dp"
+           android:layout_marginTop="15dp"
+           android:padding="10dp"
+
+           >
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               android:text="VIDEO AULAS"
+               android:textColor="@color/lime"
+               android:textStyle="bold"
+               android:textSize="34sp"
+
+               android:gravity="center"
+
+               android:padding="20dp"
+
+               android:layout_marginTop="18dp"
+
+               />
+
+       </androidx.cardview.widget.CardView>
 
    </LinearLayout>
 

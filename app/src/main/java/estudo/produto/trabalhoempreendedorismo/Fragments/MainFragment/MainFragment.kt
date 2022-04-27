@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.Button
+import estudo.produto.trabalhoempreendedorismo.MainActivity.MainActivity
 import estudo.produto.trabalhoempreendedorismo.R
 import estudo.produto.trabalhoempreendedorismo.databinding.FragmentMainBinding
 import estudo.produto.trabalhoempreendedorismo.navTo
@@ -29,14 +30,15 @@ class MainFragment : Fragment() {
     private fun transacFrag() {
 
       binding.btCalculum.setOnClickListener {   navTo(R.id.mainMatematicaFragment) }
+
       binding.btPort.setOnClickListener {  navTo(R.id.mainPortuguesFragment)   }
+
       binding.btGeo.setOnClickListener{   navTo(R.id.mainGeografiaFragment)   }
+
       binding.btAtendimento.setOnClickListener { navTo(R.id.atendenteFragment) }
+
+
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?): View{
-        return binding.root
-    }
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View{return binding.root}
 }

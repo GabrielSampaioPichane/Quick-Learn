@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/drawable/ic_book.xml" value="0.125" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/drawable/shape_category.xml" value="0.101" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/drawable/shape_container_category.xml" value="0.12" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/drawable/shape_container_components.xml" value="0.1685" />
@@ -12,8 +13,10 @@
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_distributiva.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_divisao.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_elevacao.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_exercicios_gerais_calculum.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_fracao.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_frasao.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_logo_initial.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_main.xml" value="0.2" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_main_geografia.xml" value="0.21422101449275363" />
         <entry key="..\:/Users/Gabriel/AndroidStudioProjects/TrabalhoEmpreendedorismo/app/src/main/res/layout/fragment_main_matematica.xml" value="0.21422101449275363" />

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_gaph"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/logoInitialFragment">
 
 
     <fragment
@@ -24,6 +24,7 @@
             android:id="@+id/action_mainFragment_to_mainGeografiaFragment"
             app:destination="@id/mainGeografiaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/atendenteFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.Atendimento.AtendenteFragment"
@@ -33,6 +34,7 @@
             android:id="@+id/action_atendenteFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/baskaraFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.BaskaraFragment"
@@ -42,6 +44,7 @@
             android:id="@+id/action_baskaraFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/divisaoFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.DivisaoFragment"
@@ -51,6 +54,7 @@
             android:id="@+id/action_divisaoFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/porenciaFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.PorenciaFragment"
@@ -60,6 +64,7 @@
             android:id="@+id/action_porenciaFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/multiplicacaoFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.MultiplicacaoFragment"
@@ -69,6 +74,7 @@
             android:id="@+id/action_multiplicacaoFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/raizFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.RaizFragment"
@@ -78,6 +84,7 @@
             android:id="@+id/action_raizFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/somaFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.SomaFragment"
@@ -87,6 +94,7 @@
             android:id="@+id/action_somaFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/subtracaoFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.SubtracaoFragment"
@@ -96,6 +104,7 @@
             android:id="@+id/action_subtracaoFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/mapasFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.Geografia.MapasFragment"
@@ -105,6 +114,7 @@
             android:id="@+id/action_mapasFragment_to_mainGeografiaFragment"
             app:destination="@id/mainGeografiaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/ptNivel1Fragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.PortuguesFragment.PtNivel1Fragment"
@@ -114,6 +124,7 @@
             android:id="@+id/action_ptNivel1Fragment_to_mainPortuguesFragment"
             app:destination="@id/mainPortuguesFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/ptNivel2Fragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.PortuguesFragment.PtNivel2Fragment"
@@ -123,6 +134,7 @@
             android:id="@+id/action_ptNivel2Fragment_to_mainPortuguesFragment"
             app:destination="@id/mainPortuguesFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/ptNivel3Fragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.PortuguesFragment.PtNivel3Fragment"
@@ -132,6 +144,7 @@
             android:id="@+id/action_ptNivel3Fragment_to_mainPortuguesFragment"
             app:destination="@id/mainPortuguesFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/mainGeografiaFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.Geografia.MainGeoFrag.MainGeografiaFragment"
@@ -144,6 +157,7 @@
             android:id="@+id/action_mainGeografiaFragment_to_mapasFragment"
             app:destination="@id/mapasFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/mainMatematicaFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.MainMatFrag.MainMatematicaFragment"
@@ -182,7 +196,11 @@
         <action
             android:id="@+id/action_mainMatematicaFragment_to_distributivaFragment"
             app:destination="@id/distributivaFragment" />
+        <action
+            android:id="@+id/action_mainMatematicaFragment_to_exerciciosGeraisCalculumFragment"
+            app:destination="@id/exerciciosGeraisCalculumFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/mainPortuguesFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.PortuguesFragment.MainPortFrag.MainPortuguesFragment"
@@ -201,6 +219,7 @@
             android:id="@+id/action_mainPortuguesFragment_to_ptNivel3Fragment"
             app:destination="@id/ptNivel3Fragment" />
     </fragment>
+
     <fragment
         android:id="@+id/minimoMaximoMultFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.MinimoMaximoMultFragment"
@@ -210,6 +229,7 @@
             android:id="@+id/action_minimoMaximoMultFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/frasaoFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.FrasaoFragment"
@@ -219,6 +239,7 @@
             android:id="@+id/action_frasaoFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/distributivaFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.DistributivaFragment"
@@ -227,6 +248,28 @@
         <action
             android:id="@+id/action_distributivaFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciciosGeraisCalculumFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.ExerciciosGeraisCalculum.ExerciciosGeraisCalculumFragment"
+        android:label="fragment_exercicios_gerais_calculum"
+        tools:layout="@layout/fragment_exercicios_gerais_calculum" >
+        <action
+            android:id="@+id/action_exerciciosGeraisCalculumFragment_to_mainMatematicaFragment"
+            app:destination="@id/mainMatematicaFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/logoInitialFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.LogoInitialFragment"
+        android:label="fragment_logo_initial"
+        tools:layout="@layout/fragment_logo_initial" >
+        <action
+            android:id="@+id/action_logoInitialFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+
+            />
     </fragment>
 
 

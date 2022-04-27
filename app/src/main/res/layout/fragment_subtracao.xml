@@ -3,12 +3,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.CaculumFragments.SubtracaoFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+
+        android:orientation="vertical"
+        android:padding="20sp"
+
+        android:background="@drawable/shape_container_components"
+
+        >
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:padding="10sp"
+
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SUBTRAÇÃO E SUAS PROPRIEDADES"
+
+                    android:layout_marginTop="10sp"
+
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="10sp"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/a_subtra_o_a_opera_o_matem_tica_que_retira_elementos_de_mesma_natureza_de_um_grupo_por_exemplo_se_jo_o_resolvesse_dar_4_de_seus_l_pis_a_um_amigo_ficaria_apenas_com_20"
+
+                    android:layout_marginTop="10sp"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="10sp"
+
+
+                    />
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/bt_videoSoma"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    android:background="@drawable/shape_container_components"
+
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="VIDEO AULAS"
+                        android:textColor="@color/lime"
+                        android:textStyle="bold"
+                        android:textSize="34sp"
+
+                        android:gravity="center"
+
+                        android:padding="20dp"
+
+                        android:layout_marginTop="18dp"
+
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

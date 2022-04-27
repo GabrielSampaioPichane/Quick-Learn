@@ -1,14 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.CaculumFragments.PorenciaFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+        android:background="@drawable/shape_container_components"
+
+        android:orientation="vertical"
+
+        android:padding="20sp"
+
+        >
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                android:padding="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/text_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/potencializa_o_e_radia_o_e_suas_propriedades"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+
+                    />
+
+                <TextView
+
+                    android:layout_marginTop="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RADIAÇÃO:"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:padding="10sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/text_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="10sp"
+
+                    android:text="@string/existe_ainda_uma_propriedade_que_envolve_multiplica_o_e_adi_o_ao_mesmo_tempo_assim_conforme_o_discutido_acima_tamb_m_envolve_divis_o_e_subtra_o_igualmente_dados_os_n_meros_reais_a_b_e_c_vale_a_b_c_a_b_a_c"
+                    />
+
+                <androidx.cardview.widget.CardView
+
+                     android:id="@+id/bt_videoPotenciaeRad"
+
+                     android:layout_width="match_parent"
+                     android:layout_height="120dp"
+
+                     android:background="@drawable/shape_container_components"
+
+                     app:cardCornerRadius="20dp"
+                     app:cardElevation="0dp"
+
+                     android:layout_marginTop="15dp"
+                     android:padding="10dp"
+
+                     >
+
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+
+                         android:text="VIDEO AULAS"
+                         android:textColor="@color/lime"
+                         android:textStyle="bold"
+                         android:textSize="34sp"
+
+                         android:gravity="center"
+
+                         android:padding="20dp"
+
+                        android:layout_marginTop="18dp"
+
+                         />
+
+                 </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

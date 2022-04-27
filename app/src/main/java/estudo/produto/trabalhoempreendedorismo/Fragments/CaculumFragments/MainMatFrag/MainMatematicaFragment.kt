@@ -43,6 +43,8 @@ class MainMatematicaFragment : Fragment() {
         binding.btFracao.setOnClickListener { navTo(R.id.frasaoFragment) }
 
         binding.btDistributiva.setOnClickListener { navTo(R.id.distributivaFragment) }
+
+        binding.btExerciciosGerais.setOnClickListener { navTo(R.id.exerciciosGeraisCalculumFragment) }
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View{
