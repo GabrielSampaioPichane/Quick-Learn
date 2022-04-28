@@ -33,11 +33,52 @@
 
                 <TextView
 
+                    android:layout_marginTop="20sp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/hello_blank_fragment"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radicia_o_e_suas_propriedades"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+
+                    android:padding="10sp"
 
                     />
+
+
+                <TextView
+
+                    android:layout_marginTop="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RADIAÇÃO:"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:padding="10sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/text_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="10sp"
+
+                    android:text="@string/radicia_o_a_opera_o_matem_tica_inversa_potencia_o_enquanto_a_potencia_o_uma_multiplica_o_na_qual_todos_os_fatores_s_o_iguais_a_radicia_o_procura_descobrir_que_fatores_s_o_esses_dando_o_resultado_dessa_multiplica_o"
+                    />
+
 
                 <androidx.cardview.widget.CardView
 

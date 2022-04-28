@@ -38,4 +38,6 @@
     <string name="existe_ainda_uma_propriedade_que_envolve_multiplica_o_e_adi_o_ao_mesmo_tempo_assim_conforme_o_discutido_acima_tamb_m_envolve_divis_o_e_subtra_o_igualmente_dados_os_n_meros_reais_a_b_e_c_vale_a_b_c_a_b_a_c">Existe ainda uma propriedade que envolve multiplicação e adição ao mesmo tempo. Assim, conforme o discutido acima, também envolve divisão e subtração igualmente. Dados os números reais a, b e c, vale: a·(b + c) = a·b + a·c</string>
     <string name="distributiva_e_suas_propriedades">DISTRIBUTIVA E SUAS PROPRIEDADES</string>
     <string name="potencializa_o_e_radia_o_e_suas_propriedades">POTENCIALIZAÇÃO E RADIAÇÃO E SUAS PROPRIEDADES</string>
+    <string name="radicia_o_a_opera_o_matem_tica_inversa_potencia_o_enquanto_a_potencia_o_uma_multiplica_o_na_qual_todos_os_fatores_s_o_iguais_a_radicia_o_procura_descobrir_que_fatores_s_o_esses_dando_o_resultado_dessa_multiplica_o">Radiciação é a operação matemática inversa à potenciação. Enquanto a potenciação é uma multiplicação na qual todos os fatores são iguais, a radiciação procura descobrir que fatores são esses, dando o resultado dessa multiplicação.</string>
+    <string name="radicia_o_e_suas_propriedades">RADICIAÇÃO E SUAS PROPRIEDADES:</string>
 </resources>

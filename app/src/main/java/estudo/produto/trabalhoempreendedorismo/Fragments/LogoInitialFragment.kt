@@ -29,7 +29,7 @@ class LogoInitialFragment : Fragment() {
 
         delay(1700)
 
-        navTo(R.id.mainFragment)
+        navTo(R.id.action_logoInitialFragment_to_mainFragment)
 
 
     }

@@ -58,7 +58,7 @@
                     android:layout_marginTop="20sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="RADIAÇÃO:"
+                    android:text="POTENCIAÇÃO:"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     android:textColor="@color/white"
@@ -81,7 +81,8 @@
                     android:gravity="center"
                     android:padding="10sp"
 
-                    android:text="@string/existe_ainda_uma_propriedade_que_envolve_multiplica_o_e_adi_o_ao_mesmo_tempo_assim_conforme_o_discutido_acima_tamb_m_envolve_divis_o_e_subtra_o_igualmente_dados_os_n_meros_reais_a_b_e_c_vale_a_b_c_a_b_a_c"
+                    android:text=""
+
                     />
 
                 <androidx.cardview.widget.CardView

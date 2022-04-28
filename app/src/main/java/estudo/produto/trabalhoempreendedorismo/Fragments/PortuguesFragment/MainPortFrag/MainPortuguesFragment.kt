@@ -24,11 +24,11 @@ class MainPortuguesFragment : Fragment() {
 
     private fun transActFrag() {
 
-        binding.btPt1.setOnClickListener {navTo(R.id.ptNivel1Fragment)}
+        binding.btPt1.setOnClickListener {navTo(R.id.action_mainPortuguesFragment_to_ptNivel1Fragment)}
 
-        binding.btPt2.setOnClickListener {navTo(R.id.ptNivel2Fragment)}
+        binding.btPt2.setOnClickListener {navTo(R.id.action_mainPortuguesFragment_to_ptNivel2Fragment)}
 
-        binding.btPt3.setOnClickListener {navTo(R.id.ptNivel3Fragment)}
+        binding.btPt3.setOnClickListener {navTo(R.id.action_mainPortuguesFragment_to_ptNivel3Fragment)}
 
     }
 

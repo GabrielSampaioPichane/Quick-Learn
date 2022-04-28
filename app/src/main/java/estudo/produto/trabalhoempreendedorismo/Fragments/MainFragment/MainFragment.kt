@@ -29,13 +29,13 @@ class MainFragment : Fragment() {
 
     private fun transacFrag() {
 
-      binding.btCalculum.setOnClickListener {   navTo(R.id.mainMatematicaFragment) }
+      binding.btCalculum.setOnClickListener {   navTo(R.id.action_mainFragment_to_mainMatematicaFragment) }
 
-      binding.btPort.setOnClickListener {  navTo(R.id.mainPortuguesFragment)   }
+      binding.btPort.setOnClickListener {  navTo(R.id.action_mainFragment_to_mainPortuguesFragment)   }
 
-      binding.btGeo.setOnClickListener{   navTo(R.id.mainGeografiaFragment)   }
+      binding.btGeo.setOnClickListener{   navTo(R.id.action_mainFragment_to_mainGeografiaFragment)   }
 
-      binding.btAtendimento.setOnClickListener { navTo(R.id.atendenteFragment) }
+      binding.btAtendimento.setOnClickListener { navTo(R.id.action_mainFragment_to_atendenteFragment) }
 
 
     }

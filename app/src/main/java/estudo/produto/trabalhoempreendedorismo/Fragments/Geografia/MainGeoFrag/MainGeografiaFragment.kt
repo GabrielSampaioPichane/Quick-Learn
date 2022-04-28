@@ -24,7 +24,7 @@ class MainGeografiaFragment : Fragment() {
 
     private fun transActFrag() {
 
-        binding.btMapas.setOnClickListener { navTo(R.id.mapasFragment)       }
+        binding.btMapas.setOnClickListener { navTo(R.id.action_mainGeografiaFragment_to_mapasFragment)       }
 
     }
 

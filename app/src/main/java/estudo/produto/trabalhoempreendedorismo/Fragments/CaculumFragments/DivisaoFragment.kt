@@ -6,21 +6,24 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import estudo.produto.trabalhoempreendedorismo.R
+import estudo.produto.trabalhoempreendedorismo.databinding.FragmentDivisaoBinding
 
 class DivisaoFragment : Fragment() {
 
+    private lateinit var binding : FragmentDivisaoBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
+        binding = FragmentDivisaoBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
 
+        navNetExer()
+
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    private fun navNetExer() {
 
-        return inflater.inflate(R.layout.fragment_divisao, container, false)
     }
 
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View {return binding.root}
 
 }

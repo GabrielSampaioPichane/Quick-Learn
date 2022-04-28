@@ -24,27 +24,27 @@ class MainMatematicaFragment : Fragment() {
 
     private fun transActFrag() {
 
-        binding.btSoma.setOnClickListener { navTo(R.id.somaFragment) }
+        binding.btSoma.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_somaFragment) }
 
-        binding.btSubtracao.setOnClickListener { navTo(R.id.subtracaoFragment) }
+        binding.btSubtracao.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_subtracaoFragment) }
 
-        binding.btMultiplicacao.setOnClickListener { navTo(R.id.multiplicacaoFragment) }
+        binding.btMultiplicacao.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_multiplicacaoFragment) }
 
-        binding.btDivisO.setOnClickListener { navTo(R.id.divisaoFragment) }
+        binding.btDivisO.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_divisaoFragment) }
 
-        binding.btRaiz.setOnClickListener { navTo(R.id.raizFragment) }
+        binding.btRaiz.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_raizFragment) }
 
-        binding.btPotencia.setOnClickListener { navTo(R.id.porenciaFragment) }
+        binding.btPotencia.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_porenciaFragment) }
 
-        binding.btBhaskara.setOnClickListener { navTo(R.id.baskaraFragment) }
+        binding.btBhaskara.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_baskaraFragment) }
 
-        binding.btMinMaxMult.setOnClickListener { navTo(R.id.minimoMaximoMultFragment) }
+        binding.btMinMaxMult.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_minimoMaximoMultFragment) }
 
-        binding.btFracao.setOnClickListener { navTo(R.id.frasaoFragment) }
+        binding.btFracao.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_frasaoFragment) }
 
-        binding.btDistributiva.setOnClickListener { navTo(R.id.distributivaFragment) }
+        binding.btDistributiva.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_distributivaFragment) }
 
-        binding.btExerciciosGerais.setOnClickListener { navTo(R.id.exerciciosGeraisCalculumFragment) }
+        binding.btExerciciosGerais.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_exerciciosGeraisCalculumFragment) }
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View{
