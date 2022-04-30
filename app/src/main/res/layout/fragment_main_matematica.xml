@@ -254,7 +254,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/bt_bhaskara"
+                    android:id="@+id/bt_OrdemDasOperacoes"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_marginTop="20dp"
@@ -264,6 +264,7 @@
                     app:cardElevation="0dp"
 
                     >
+
                     <TextView
 
                         android:layout_width="match_parent"
@@ -272,11 +273,11 @@
                         android:gravity="center"
                         android:textColor="@color/lime"
                         android:textSize="35sp"
-                        android:text="@string/bhaskara"
+                        android:text="@string/OrdemDasOperacoes"
                         android:textStyle="bold"
 
-                        android:paddingHorizontal="20sp"
-                        android:layout_marginTop="35sp"
+                        android:padding="15sp"
+                        android:layout_marginTop="10dp"
 
                         />
 

@@ -69,9 +69,9 @@
 
     <fragment
         android:id="@+id/baskaraFragment"
-        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.BaskaraFragment"
+        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.OrdemDasOperaçõesFragment"
         android:label="fragment_baskara"
-        tools:layout="@layout/fragment_baskara" >
+        tools:layout="@layout/fragment_ordem_das_operacoes" >
         <action
             android:id="@+id/action_baskaraFragment_to_mainMatematicaFragment"
             app:destination="@id/mainMatematicaFragment"

@@ -74,17 +74,280 @@
 
                     android:layout_marginTop="10dp"
 
-                    android:textSize="22sp"
+                    android:textSize="24sp"
                     android:textStyle="bold"
                     android:textColor="@color/white"
 
-                    android:gravity="center"
-                    android:padding="10sp"
 
-                    android:text=""
+                    android:padding="10sp"
+                    android:gravity="center"
+                    android:text="RADICIAÇÃO E SUAS PROPRIEDADES"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Radiciação é a operação matemática inversa à potenciação. Enquanto a potenciação é uma multiplicação na qual todos os fatores são iguais, a radiciação procura descobrir que fatores são esses, dando o resultado dessa multiplicação."
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Exemplos:"
+
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Dada a potência: 42 = 4·4 = 16"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Dizemos que a raiz quadrada (raiz com índice 2) de 16 é igual a 4."
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Dada a potência: 26 = 64"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Dizemos que a raiz sexta de 64 é igual a 2. Note que, ao dizer raiz sexta, estamos deixando claro que procuramos um número que foi multiplicado por ele mesmo 6 vezes e cujo resultado dessa multiplicação é igual a 64."
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="A notação usada para as raízes é a seguinte:"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
 
                     />
 
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/asdasdasda"
+
+                    android:padding="10sp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="No exemplo anterior, 64 é o radicando, 6 é o índice e 2 é a raiz sexta de 64 e resultado da raiz."
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Observação: Se a for um número real negativo e n for um número natural par, então não existe solução para essa raiz no conjunto dos números reais."
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="PROPRIEDADES DA RADIAÇÃO"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+
+                    android:textSize="22sp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="1 – A raiz enésima de um número elevado a n é igual a esse mesmo número:"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/exemplo_1"
+                    android:padding="10sp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="2 – Índice e expoente do radicando podem ser multiplicados ou divididos pelo mesmo número. Assim, dados os números reais a, m, n e p, teremos:"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/exemplo_2"
+                    android:padding="10sp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="3 – Para simplificar a raiz de uma raiz, basta multiplicar seus índices. Matematicamente, isso pode ser representado da seguinte forma:"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/exemplo_3"
+                    android:padding="10sp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="4 – A raiz enésima do produto é igual ao produto das raízes enésimas:"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/exemplo_4"
+                    android:padding="10sp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="5 – A raiz enésima da razão é igual à razão das raízes enésimas, ou seja:"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    />
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/exemplo_5"
+                    android:padding="10sp"
+                    />
                 <androidx.cardview.widget.CardView
 
                      android:id="@+id/bt_videoPotenciaeRad"

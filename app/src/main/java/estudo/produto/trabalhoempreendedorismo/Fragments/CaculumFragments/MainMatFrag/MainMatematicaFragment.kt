@@ -36,7 +36,7 @@ class MainMatematicaFragment : Fragment() {
 
         binding.btPotencia.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_porenciaFragment) }
 
-        binding.btBhaskara.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_baskaraFragment) }
+        binding.btOrdemDasOperacoes.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_baskaraFragment) }
 
         binding.btMinMaxMult.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_minimoMaximoMultFragment) }
 
@@ -45,11 +45,10 @@ class MainMatematicaFragment : Fragment() {
         binding.btDistributiva.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_distributivaFragment) }
 
         binding.btExerciciosGerais.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_exerciciosGeraisCalculumFragment) }
+
     }
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View{
-            return binding.root
-    }
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View{return binding.root}
 
 
 }
