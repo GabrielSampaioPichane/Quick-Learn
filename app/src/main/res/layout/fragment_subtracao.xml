@@ -1,182 +1,658 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.CaculumFragments.SubtracaoFragment">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
 
-        android:orientation="vertical"
-        android:padding="20sp"
+           android:orientation="vertical"
+           android:background="@drawable/shape_container_components"
+           android:padding="15dp"
 
-        android:background="@drawable/shape_container_components"
+           >
+           <androidx.core.widget.NestedScrollView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
 
-        >
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+
+                  android:orientation="vertical"
+                  >
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="SUBTRAÇÃO E SUAS PROPRIEDADES"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+
+                      />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="A subtração é considerada uma operação básica da matemática, com a adição, a multiplicação e a divisão. Calcular a subtração entre dois números é diminuir certa quantia de outra já existente. Por exemplo, se existem 8 pessoas em um elevador, e 3 delas descem dele, então, para calcular a quantidade de pessoas restantes, usamos a subtração entre 8 e 3, ou seja, 8 – 3. Se retirarmos 3 de 8, encontraremos o número restante de pessoas no elevador, que são 5."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="ELEMENTOS DA SUBTRAÇÃO"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Cada termo da subtração recebe um nome. Calculamos a subtração entre o minuendo, que é a quantia já existente, e o subtraendo, que é a quantidade retirada do minuendo. O resultado da subtração é conhecido como diferença:"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="Exemplo:"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="8 – 3 = 5"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="8 → minuendo"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="3 → subtraendo"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="5 → diferença"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Para realizar a operação de subtração entre dois números, basta lembrar que ela é a operação inversa da adição e usar a operação inversa para encontrar a resposta. Como vimos, sabemos que 8 – 3 é 5, porque 3 + 5 = 8. Para números menores, esse raciocínio é sempre eficiente."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="Exemplo:"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="9 – 8 = 1, pois 8 + 1 = 9"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="12 – 5 = 7, pois 5 + 7 = 12"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="10 – 4 = 6, pois 6 + 4 = 10"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Para casos em que os números são maiores, é conveniente utilizar o algoritmo da subtração."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Quando não for possível encontrar a diferença entre dois números de forma direta, como nos exemplos anteriores, recorremos ao algoritmo da subtração. Vejamos o passo a passo para calcular a subtração entre dois números utilizando o algoritmo."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="EXEMPLO:"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Calcularemos a subtração 84 – 21."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="1º passo: primeiro vamos montar o algoritmo colocando unidade em baixo de unidade e dezena em baixo de dezena, como na imagem a seguir:"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:src="@drawable/exsub1"
+                      android:layout_gravity="center"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="2º passo: agora calcularemos a diferença, primeiramente, entre as unidades, ou seja, 4 – 1, que é igual a 3. O resultado da subtração será escrito logo abaixo da unidade:"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:src="@drawable/exsub2"
+                      android:layout_gravity="center"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="3º passo: por fim, faremos a subtração entre as dezenas, 8 – 2 = 6 dezenas. Então, escreveremos o resultado da seguinte maneira:"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:src="@drawable/exsub3"
+                      android:layout_gravity="center"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Assim, temos que: 84 – 21 = 63."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="@string/jogo_de_sinal"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Para calcular a subtração quando o subtraendo é maior que o minuendo, utilizamos o jogo de sinal."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="7 – 12"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Sabemos que 12 > 7. Nesse caso, realizamos a subtração 12 – 7 e conservamos o sinal do maior número em módulo, ou seja, o sinal negativo."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Então, temos que 7 – 12 = -5."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="EXEMPLOS:"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="15 – 23 = -8"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="7 – 11 = -4"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="9 – 14 = -5"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="PROPRIEDADES DA SUBTRAÇÃO"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Realizando a comparação das propriedades da subtração com as propriedades da adição, a subtração não é comutativa nem associativa, mas nela há o elemento neutro."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="•Existência do elemento neutro"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="22sp"
+                      android:textStyle="bold"
+                      android:text="Na subtração, o 0 é o elemento neutro, pois qualquer número subtraído por 0 é ele mesmo."
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="EXEMPLO"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/white"
+                      android:textSize="24sp"
+                      android:textStyle="bold"
+                      android:text="5 – 0 = 5"
+
+                      android:gravity="center"
+                      android:padding="10sp"
+
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginTop="10dp"
+                      />
 
 
-        <androidx.core.widget.NestedScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+               <androidx.cardview.widget.CardView
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                   android:id="@+id/bt_videosSubtracao"
 
-                android:padding="10sp"
+                   android:layout_width="match_parent"
+                   android:layout_height="120dp"
 
-                android:orientation="vertical"
-                >
+                   android:background="@drawable/shape_container_components"
 
+                   app:cardCornerRadius="20dp"
+                   app:cardElevation="0dp"
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="SUBTRAÇÃO E SUAS PROPRIEDADES"
+                   android:layout_marginTop="15dp"
+                   android:padding="10dp"
 
-                    android:layout_marginTop="10sp"
-
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-
-                    android:gravity="center"
-                    android:padding="10sp"
-
-                    />
+                   android:layout_marginBottom="10dp"
 
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                   >
 
-                    android:text="@string/a_subtra_o_a_opera_o_matem_tica_que_retira_elementos_de_mesma_natureza_de_um_grupo_por_exemplo_se_jo_o_resolvesse_dar_4_de_seus_l_pis_a_um_amigo_ficaria_apenas_com_20"
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
 
-                    android:layout_marginTop="10sp"
+                       android:text="VIDEO AULAS"
+                       android:textColor="@color/lime"
+                       android:textStyle="bold"
+                       android:textSize="34sp"
 
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
+                       android:gravity="center"
 
-                    android:gravity="center"
-                    android:padding="10sp"
+                       android:padding="20dp"
 
+                       android:layout_marginTop="18dp"
 
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                       />
 
-                    android:text="Para subtrair frações temos que ter o mesmo cuidado que temos na soma, ou seja, verificar se os denominadores são iguais. Se forem, repetimos o denominador e subtraímos os numeradores."
+               </androidx.cardview.widget.CardView>
 
-                    android:layout_marginTop="10sp"
+              </LinearLayout>
 
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-
-                    android:gravity="center"
-                    android:padding="10sp"
+           </androidx.core.widget.NestedScrollView>
 
 
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
 
-                    android:text="Se forem diferentes, fazemos os mesmos procedimentos da soma, para obter frações equivalentes de mesmo denominador, aí sim podemos efetuar a subtração."
-
-                    android:layout_marginTop="10sp"
-
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-
-                    android:gravity="center"
-                    android:padding="10sp"
-
-
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="Exemplo:"
-
-                    android:layout_marginTop="10sp"
-
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-
-                    android:gravity="center"
-                    android:padding="10sp"
-
-
-                    />
-        <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="10sp"
-    android:layout_gravity="center"
-    android:background="@color/white"
-    >
-          <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:src="@drawable/fdfdfgre"
-        />
-
-             </LinearLayout>
-                <androidx.cardview.widget.CardView
-
-                    android:id="@+id/bt_videoSoma"
-
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-
-                    android:background="@drawable/shape_container_components"
-
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp"
-
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="15dp"
-                    android:padding="10dp"
-
-                    >
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:text="VIDEO AULAS"
-                        android:textColor="@color/lime"
-                        android:textStyle="bold"
-                        android:textSize="34sp"
-
-                        android:gravity="center"
-
-                        android:padding="20dp"
-
-                        android:layout_marginTop="18dp"
-
-                        />
-
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-        </androidx.core.widget.NestedScrollView>
-
-    </LinearLayout>
-
+       </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

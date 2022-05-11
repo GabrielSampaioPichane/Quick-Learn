@@ -34,11 +34,695 @@
                 <TextView
 
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/hello_blank_fragment"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text = "FRAÇÃO"
 
                     />
 
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Na matemática, as frações correspondem a uma representação das partes de um todo. Ela determina a divisão de partes iguais sendo que cada parte é uma fração do inteiro."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Como exemplo podemos pensar numa pizza dividida em 8 partes iguais, sendo que cada fatia corresponde a 1/8 (um oitavo) de seu total. Se eu como 3 fatias, posso dizer que comi 3/8 (três oitavos) da pizza."
+
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/pizz"
+
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Importante lembrar que nas frações, o termo superior é chamado de numerador enquanto o termo inferior é chamado de denominador."
+
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/asda12"
+
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="TIPOS DE FRAÇÕES"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="FRAÇÃO PRÓPRIA"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="São frações em que o numerador é menor que o denominador, ou seja, representa um número menor que um inteiro. Ex: 2/7"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="FRAÇÃO IMPRÓPRIA"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="São frações em que o numerador é maior, ou seja, representa um número maior que o inteiro. Ex: 5/3"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="FRAÇÃO APARENTE"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="São frações em que o numerador é múltiplo ao denominador, ou seja, representa um número inteiro escrito em forma de fração. Ex: 6/3= 2"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="FRAÇÃO MISTA"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="É constituída por uma parte inteira e uma fracionária representada por números mistos. "
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Exemplo:"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="1 2/6. (um inteiro e dois sextos)"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Obs: Há outros tipos de frações, são elas: equivalente, irredutível, unitária, egípcia, decimal, composta, contínua, algébrica."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="OPERAÇÕES COM FRAÇÕES"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="ADIÇÃO"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Para somar frações é necessário identificar se os denominadores são iguais ou diferentes. Se forem iguais, basta repetir o denominador e somar os numeradores."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Contudo, se os denominadores são diferentes, antes de somar devemos transformar as frações em frações equivalentes de mesmo denominador.t"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Neste caso, calculamos o Mínimo Múltiplo Comum (MMC) entre os denominadores das frações que queremos somar, esse valor passa a ser o novo denominador das frações."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Além disso, devemos dividir o MMC encontrado pelo denominador e o resultado multiplicamos pelo numerador de cada fração. Esse valor passa a ser o novo numerador."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Exemplos:"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/deed"
+
+                        />
+                </LinearLayout>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="SUBTRAÇÃO"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Para subtrair frações temos que ter o mesmo cuidado que temos na soma, ou seja, verificar se os denominadores são iguais. Se forem, repetimos o denominador e subtraímos os numeradores."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Se forem diferentes, fazemos os mesmos procedimentos da soma, para obter frações equivalentes de mesmo denominador, aí sim podemos efetuar a subtração."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Exemplos:"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:src="@drawable/dsppds"
+
+
+                        />
+
+                </LinearLayout>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="MULTIPLICAÇÃO"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="A multiplicação de frações é feita multiplicando os numeradores entre si, bem como seus denominadores."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Exemplos:"
+
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:src="@drawable/asdasd123123"
+
+
+                        />
+
+                </LinearLayout>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="DIVISÃO"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Na divisão entre duas frações, multiplica-se a primeira fração pelo inverso da segunda, ou seja, inverte-se o numerador e o denominador da segunda fração."
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height = "wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Exemplos:"
+
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:background="@color/white"
+
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:src="@drawable/asdasdas321"
+
+
+                        />
+
+                </LinearLayout>
                 <androidx.cardview.widget.CardView
 
                     android:id="@+id/bt_videoFrasao"
