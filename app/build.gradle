@@ -35,6 +35,7 @@ android {
     enabled = true
 
 }
+    namespace 'estudo.produto.trabalhoempreendedorismo'
 
 }
 
