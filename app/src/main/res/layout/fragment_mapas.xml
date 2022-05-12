@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
             <LinearLayout
 
                 android:layout_width="match_parent"
@@ -28,15 +29,106 @@
                 android:padding="20sp"
                 >
 
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="220dp"
 
+                    android:layout_gravity="center"
 
-                <TextView
+                    android:src="@drawable/mapapg"
 
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/hello_blank_fragment"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
 
                     />
+
+
+
+                  <HorizontalScrollView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+
+                          android:orientation="horizontal"
+
+                          >
+
+
+
+                      <ImageView
+                          android:layout_width="200dp"
+                          android:layout_height="220dp"
+
+                          android:layout_gravity="center"
+
+                          android:src="@drawable/nortepg"
+
+                          android:layout_marginEnd="10dp"
+                          android:layout_marginStart="10dp"
+
+                          />
+                      <ImageView
+                          android:layout_width="200dp"
+                          android:layout_height="220dp"
+
+                          android:layout_gravity="center"
+
+                          android:src="@drawable/nordestepg"
+
+                          android:layout_marginEnd="10dp"
+                          android:layout_marginStart="10dp"
+
+                          />
+                      <ImageView
+                          android:layout_width="200dp"
+                          android:layout_height="220dp"
+
+                          android:layout_gravity="center"
+
+                          android:src="@drawable/centrooestepg"
+
+                          android:layout_marginEnd="10dp"
+                          android:layout_marginStart="10dp"
+
+                          />
+                      <ImageView
+                          android:layout_width="200dp"
+                          android:layout_height="220dp"
+
+                          android:layout_gravity="center"
+
+                          android:src="@drawable/sudestepg"
+
+                          android:layout_marginEnd="10dp"
+                          android:layout_marginStart="10dp"
+
+                          />
+                      <ImageView
+                          android:layout_width="200dp"
+                          android:layout_height="220dp"
+
+                          android:layout_gravity="center"
+
+                          android:src="@drawable/sulpg"
+
+                          android:layout_marginEnd="10dp"
+                          android:layout_marginStart="10dp"
+
+                          />
+
+
+                      </LinearLayout>
+
+                  </HorizontalScrollView>
+
+
+
+
+
 
                 <androidx.cardview.widget.CardView
 

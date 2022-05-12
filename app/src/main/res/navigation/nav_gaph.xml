@@ -68,7 +68,7 @@
     </fragment>
 
     <fragment
-        android:id="@+id/baskaraFragment"
+        android:id="@+id/ordemDasOperacoesFragment"
         android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.OrdemDasOperaçõesFragment"
         android:label="fragment_baskara"
         tools:layout="@layout/fragment_ordem_das_operacoes" >
@@ -131,21 +131,7 @@
             />
     </fragment>
 
-    <fragment
-        android:id="@+id/raizFragment"
-        android:name="estudo.produto.trabalhoempreendedorismo.Fragments.CaculumFragments.RaizFragment"
-        android:label="fragment_raiz"
-        tools:layout="@layout/fragment_raiz" >
-        <action
-            android:id="@+id/action_raizFragment_to_mainMatematicaFragment"
-            app:destination="@id/mainMatematicaFragment"
-            app:enterAnim="@anim/nav_animation_enter"
-            app:popEnterAnim="@anim/nav_animation_popup_enter"
 
-            app:exitAnim="@anim/nav_animation_exit"
-            app:popExitAnim="@anim/nav_animation_popup_exit"
-            />
-    </fragment>
 
     <fragment
         android:id="@+id/somaFragment"
@@ -310,15 +296,7 @@
             app:exitAnim="@anim/nav_animation_exit"
             app:popExitAnim="@anim/nav_animation_popup_exit"
             />
-        <action
-            android:id="@+id/action_mainMatematicaFragment_to_raizFragment"
-            app:destination="@id/raizFragment"
-            app:enterAnim="@anim/nav_animation_enter"
-            app:popEnterAnim="@anim/nav_animation_popup_enter"
 
-            app:exitAnim="@anim/nav_animation_exit"
-            app:popExitAnim="@anim/nav_animation_popup_exit"
-            />
         <action
             android:id="@+id/action_mainMatematicaFragment_to_divisaoFragment"
             app:destination="@id/divisaoFragment"
@@ -330,7 +308,7 @@
             />
         <action
             android:id="@+id/action_mainMatematicaFragment_to_baskaraFragment"
-            app:destination="@id/baskaraFragment"
+            app:destination="@id/ordemDasOperacoesFragment"
 
             app:enterAnim="@anim/nav_animation_enter"
             app:popEnterAnim="@anim/nav_animation_popup_enter"

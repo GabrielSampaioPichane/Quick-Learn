@@ -32,8 +32,6 @@ class MainMatematicaFragment : Fragment() {
 
         binding.btDivisO.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_divisaoFragment) }
 
-        binding.btRaiz.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_raizFragment) }
-
         binding.btPotencia.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_porenciaFragment) }
 
         binding.btOrdemDasOperacoes.setOnClickListener { navTo(R.id.action_mainMatematicaFragment_to_baskaraFragment) }

@@ -222,36 +222,8 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/bt_raiz"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_marginTop="20dp"
 
 
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp"
-
-                    >
-                    <TextView
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:gravity="center"
-                        android:textColor="@color/lime"
-                        android:textSize="35sp"
-                        android:text="@string/raiz"
-                        android:textStyle="bold"
-
-                        android:paddingHorizontal="20sp"
-                        android:layout_marginTop="35sp"
-
-
-                        />
-
-
-                </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/bt_OrdemDasOperacoes"
