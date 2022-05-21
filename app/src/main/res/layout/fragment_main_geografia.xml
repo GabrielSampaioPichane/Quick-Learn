@@ -65,12 +65,17 @@
 
                 <androidx.cardview.widget.CardView
 
+                    android:layout_gravity="center"
+
                     android:id="@+id/bt_mapas"
                     android:layout_width="match_parent"
 
                     android:layout_height="120dp"
 
                     android:background="@drawable/shape_container_components"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
 
                     app:cardCornerRadius="20dp"
                     app:cardElevation="0dp">

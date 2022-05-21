@@ -26,21 +26,25 @@
 
                 android:orientation="vertical"
 
+                android:gravity="center"
+
                 android:padding="20sp"
                 >
 
                 <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="220dp"
+                    android:layout_width="260dp"
+                    android:layout_height="280dp"
 
                     android:layout_gravity="center"
 
-                    android:src="@drawable/mapapg"
+                    android:layout_marginTop="30dp"
 
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="30dp"
+                    android:layout_marginBottom="80dp"
 
-                    />
+                    android:scaleX="1.3"
+                    android:scaleY="1.2"
+
+                    android:src="@drawable/mapapg" />
 
 
 
@@ -55,79 +59,1132 @@
 
                           android:orientation="horizontal"
 
+                          android:layout_marginBottom="10dp"
+                          android:layout_marginTop="10dp"
                           >
 
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+
+                              android:background="@drawable/shape_container_components"
+
+                              android:orientation="vertical"
+                              >
+
+                              <androidx.core.widget.NestedScrollView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent">
+
+                                  <LinearLayout
+                                      android:layout_width="match_parent"
+                                      android:layout_height="match_parent"
+
+                                      android:layout_gravity="center"
+
+                                      android:layout_marginStart="20dp"
+
+                                      android:layout_marginTop="80dp"
+
+                                      android:layout_marginEnd="20dp"
+
+                                      android:orientation="vertical"
+                                      >
+
+                                      <ImageView
+                                          android:layout_width="200dp"
+                                          android:layout_height="220dp"
 
 
-                      <ImageView
-                          android:layout_width="200dp"
-                          android:layout_height="220dp"
+                                          android:layout_gravity="center"
 
-                          android:layout_gravity="center"
+                                          android:layout_marginStart="40dp"
 
-                          android:src="@drawable/nortepg"
+                                          android:layout_marginTop="35dp"
 
-                          android:layout_marginEnd="10dp"
-                          android:layout_marginStart="10dp"
+                                          android:layout_marginEnd="40dp"
+                                          android:src="@drawable/nortepg"
 
-                          />
-                      <ImageView
-                          android:layout_width="200dp"
-                          android:layout_height="220dp"
+                                          />
 
-                          android:layout_gravity="center"
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
 
-                          android:src="@drawable/nordestepg"
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="REGIÃO NORTE"
 
-                          android:layout_marginEnd="10dp"
-                          android:layout_marginStart="10dp"
 
-                          />
-                      <ImageView
-                          android:layout_width="200dp"
-                          android:layout_height="220dp"
+                                          android:textColor="@color/white"
+                                          android:textSize="24dp"
+                                          android:textStyle="bold" />
 
-                          android:layout_gravity="center"
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
 
-                          android:src="@drawable/centrooestepg"
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="Com uma área de 3 853 676,948 km², equivalente a 42,27% do território nacional, a região norte é maior do país."
 
-                          android:layout_marginEnd="10dp"
-                          android:layout_marginStart="10dp"
 
-                          />
-                      <ImageView
-                          android:layout_width="200dp"
-                          android:layout_height="220dp"
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
 
-                          android:layout_gravity="center"
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
 
-                          android:src="@drawable/sudestepg"
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="É formada por 7 estados: Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins."
 
-                          android:layout_marginEnd="10dp"
-                          android:layout_marginStart="10dp"
 
-                          />
-                      <ImageView
-                          android:layout_width="200dp"
-                          android:layout_height="220dp"
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
 
-                          android:layout_gravity="center"
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
 
-                          android:src="@drawable/sulpg"
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="ESTADOS QUE COMPÔEM"
 
-                          android:layout_marginEnd="10dp"
-                          android:layout_marginStart="10dp"
 
-                          />
+                                          android:textColor="@color/white"
+                                          android:textSize="24dp"
+                                          android:textStyle="bold" />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="ACRE:"
+
+
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Capital: Rio Branco"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Governo: Gladson de Lima Cameli (2018-2022)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Área territorial: 164.123,964 km²"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="População: 894.470 habitantes"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Densidade demográfica: 4,47 hab/km²"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Fuso: GMT -5 (2 horas adiantado em relação ao horário de Brasília)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Clima: equatorial úmido"
+
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="AMAPÁ:"
+
+
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Capital: Macapá"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Governo: Waldez Goés (2018-2022) e vice-governador Jaime Nunes"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Área territorial: 142.470,762 km². (IBGE, 2019)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="População: 861.773 habitantes. (IBGE, 2020)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Densidade demográfica: 4,69 hab/km². (IBGE, 2010)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Fuso: GMT - 3 horas (Horário Padrão de Brasília)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Clima: equatorial úmido"
+
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="AMAZONAS:"
+
+
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Capital: Manaus"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Governo: Wilson Miranda de Lima (2019-2022)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Área territorial: 1.559.167.889 Km² (IBGE, 2019)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="População: 4.207.714 (estimativa IBGE, 2020)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Densidade demográfica: 2,23 hab./km² (IBGE, 2010)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Fuso: UTC - 4"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Clima: equatorial"
+
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="PARÁ:"
+
+
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Capital: Belém"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Área territorial: 1.245.870 km² (IBGE, 2019)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="População: 8.690.745 habitantes (IBGE, 2020)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Densidade demográfica: 6,07 hab./km² (IBGE, 2010)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Fuso: UTC-3"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Clima: Equatorial"
+
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="RONDÔNIA:"
+
+
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Capital: Porto Velho"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Governo: Marcos Rocha (2019-2022)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Área territorial: 237.590 km² (IBGE, 2019)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="População: 1.796.460 habitantes (IBGE, 2020)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Densidade demográfica: 6,58 hab./km² (IBGE, 2010)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Fuso: UTC-4"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Clima: Equatorial"
+
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="RORAIMA:"
+
+
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Capital: Boa Vista"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Governo: Antônio Denarium (2019-2022)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Área territorial: 224.300.506 km² (IBGE, 2019)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="População: 605.761 habitantes (IBGE, 2020)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Densidade demográfica: 2,01 hab./km² (IBGE, 2010)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Fuso: UTC-4"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Clima: Equatorial"
+
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+
+                                             <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          android:text="TOCANTINS:"
+
+
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Capital: Palmas"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Governo: Mauro Carlesse (2019 – 2022)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Área territorial: 277.466,763 km² (IBGE, 2019)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="População: 1.590.248 milhão de habitantes (IBGE, 2020)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Densidade demográfica: 5,73 hab./km² (IBGE, 2020)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:gravity="center"
+                                          android:text="Fuso: Brasília (-3:00)"
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+
+                                          android:gravity="center"
+                                          android:text="Clima: predomínio do clima tropical"
+
+
+                                          android:layout_marginBottom="5dp"
+                                          android:layout_marginTop="5dp"
+
+                                          android:textColor="@color/white"
+                                          android:textSize="20dp"
+                                          android:textStyle="bold" />
+
+                                  </LinearLayout>
+
+
+                              </androidx.core.widget.NestedScrollView>
+
+
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+
+                              android:orientation="vertical"
+
+                              android:layout_gravity="center"
+
+                              android:background="@drawable/shape_container_components"
+
+                              android:layout_marginEnd="20dp"
+                              android:layout_marginStart="20dp"
+                              >
+
+                              <androidx.core.widget.NestedScrollView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent">
+
+                                  <LinearLayout
+                                      android:layout_width="match_parent"
+                                      android:layout_height="match_parent"
+
+                                      android:orientation="vertical"
+
+                                      >
+
+                                      <ImageView
+                                          android:layout_width="200dp"
+                                          android:layout_height="220dp"
+
+                                          android:layout_gravity="center"
+
+                                          android:src="@drawable/nordestepg"
+
+                                          android:layout_marginEnd="40dp"
+                                          android:layout_marginStart="40dp"
+
+                                          />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="dasdasdasd"
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
+
+                                  </LinearLayout>
+
+
+
+                              </androidx.core.widget.NestedScrollView>
+
+
+                          </LinearLayout>
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+
+                              android:orientation="vertical"
+
+                              android:layout_gravity="center"
+
+                              android:background="@drawable/shape_container_components"
+
+                              android:layout_marginEnd="20dp"
+                              android:layout_marginStart="20dp"
+                              >
+
+                              <androidx.core.widget.NestedScrollView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent">
+
+                                  <LinearLayout
+                                      android:layout_width="match_parent"
+                                      android:layout_height="match_parent"
+
+                                      android:orientation="vertical"
+
+                                      >
+
+                                      <ImageView
+                                          android:layout_width="200dp"
+                                          android:layout_height="220dp"
+
+                                          android:layout_gravity="center"
+
+                                          android:src="@drawable/centrooestepg"
+
+                                          android:layout_marginEnd="40dp"
+                                          android:layout_marginStart="40dp"
+
+                                          />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="dasdasdasd"
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
+
+                                  </LinearLayout>
+
+
+
+                              </androidx.core.widget.NestedScrollView>
+
+
+                          </LinearLayout>
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+
+                              android:orientation="vertical"
+
+                              android:layout_gravity="center"
+
+                              android:background="@drawable/shape_container_components"
+
+                              android:layout_marginEnd="40dp"
+                              android:layout_marginStart="40dp"
+                              >
+
+                              <androidx.core.widget.NestedScrollView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent">
+
+                                  <LinearLayout
+                                      android:layout_width="match_parent"
+                                      android:layout_height="match_parent"
+
+                                      android:orientation="vertical"
+
+                                      >
+
+                                      <ImageView
+                                          android:layout_width="200dp"
+                                          android:layout_height="220dp"
+
+                                          android:layout_gravity="center"
+
+                                          android:src="@drawable/sudestepg"
+
+                                          android:layout_marginEnd="40dp"
+                                          android:layout_marginStart="40dp"
+
+                                          />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="dasdasdasd"
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
+
+                                  </LinearLayout>
+
+
+
+                              </androidx.core.widget.NestedScrollView>
+
+
+                          </LinearLayout>
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+
+                              android:orientation="vertical"
+
+                              android:layout_gravity="center"
+
+                              android:background="@drawable/shape_container_components"
+
+                              android:layout_marginEnd="40dp"
+                              android:layout_marginStart="40dp"
+                              >
+
+                              <androidx.core.widget.NestedScrollView
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent">
+
+                                  <LinearLayout
+                                      android:layout_width="match_parent"
+                                      android:layout_height="match_parent"
+
+                                      android:orientation="vertical"
+
+                                      >
+
+                                      <ImageView
+                                          android:layout_width="200dp"
+                                          android:layout_height="220dp"
+
+                                          android:layout_gravity="center"
+
+                                          android:src="@drawable/sulpg"
+
+                                          android:layout_marginEnd="40dp"
+                                          android:layout_marginStart="40dp"
+
+
+                                          />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="dasdasdasd"
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
+
+                                  </LinearLayout>
+
+
+
+                              </androidx.core.widget.NestedScrollView>
+
+
+                          </LinearLayout>
+
+
 
 
                       </LinearLayout>
 
                   </HorizontalScrollView>
-
-
-
-
 
 
                 <androidx.cardview.widget.CardView
