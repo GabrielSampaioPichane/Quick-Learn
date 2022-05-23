@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.Geografia.MapasFragment" xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:context=".Fragments.Geografia.MapasFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,16 +47,19 @@
 
                     android:src="@drawable/mapapg" />
 
+               <View
+                   android:id="@+id/viewb"
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"/>
 
-
-                  <HorizontalScrollView
+                <HorizontalScrollView
                       android:layout_width="match_parent"
                       android:layout_height="match_parent">
 
 
                       <LinearLayout
-                          android:layout_width="match_parent"
-                          android:layout_height="match_parent"
+                          android:layout_width="wrap_content"
+                          android:layout_height="300dp"
 
                           android:orientation="horizontal"
 
@@ -78,20 +82,17 @@
 
                                   <LinearLayout
                                       android:layout_width="match_parent"
-                                      android:layout_height="match_parent"
+
+                                      android:layout_height="wrap_content"
 
                                       android:layout_gravity="center"
 
-                                      android:layout_marginStart="20dp"
-
-                                      android:layout_marginTop="80dp"
-
-                                      android:layout_marginEnd="20dp"
-
                                       android:orientation="vertical"
+
+                                      android:padding="10dp"
                                       >
 
-                                      <ImageView
+                                           <ImageView
                                           android:layout_width="200dp"
                                           android:layout_height="220dp"
 
@@ -920,8 +921,7 @@
                                           android:textColor="@color/white"
                                           android:textSize="20dp"
                                           android:textStyle="bold" />
-
-                                  </LinearLayout>
+                                 </LinearLayout>
 
 
                               </androidx.core.widget.NestedScrollView>
@@ -953,6 +953,7 @@
 
                                       android:orientation="vertical"
 
+                                      android:padding="10dp"
                                       >
 
                                       <ImageView
@@ -972,7 +973,7 @@
                                           android:layout_width="match_parent"
                                           android:layout_height="wrap_content"
 
-                                          android:text="dasdasdasd"
+                                          android:text="REGIÃO NORDESTE"
                                           android:textColor="@color/white"
                                           android:textSize="22dp"
                                           android:textStyle="bold"
@@ -983,6 +984,35 @@
                                           android:gravity="center"
                                           />
 
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="Com uma área de 1 554 291,607 km², equivalente a 18,27% do território nacional, a região nordeste é formada por 9 estados:"
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
+
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="Alagoas, Bahia, Ceará, Maranhão, Paraíba, Pernambuco, Piauí, Rio Grande do Norte e Sergipe."
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
                                   </LinearLayout>
 
 
@@ -1015,6 +1045,7 @@
 
                                       android:orientation="vertical"
 
+                                      android:padding="10dp"
                                       >
 
                                       <ImageView
@@ -1034,7 +1065,7 @@
                                           android:layout_width="match_parent"
                                           android:layout_height="wrap_content"
 
-                                          android:text="dasdasdasd"
+                                          android:text="REGIÃO CENTRO-OESTE"
                                           android:textColor="@color/white"
                                           android:textSize="22dp"
                                           android:textStyle="bold"
@@ -1044,7 +1075,34 @@
                                           android:layout_marginBottom="10dp"
                                           android:gravity="center"
                                           />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
 
+                                          android:text="Com uma área de 1 606 399.509 km², equivalente a 18,86% do território nacional, a região centro-oeste é a segunda maior do país."
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="É formada por 3 estados: Goiás, Mato Grosso e Mato Grosso do Sul."
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
                                   </LinearLayout>
 
 
@@ -1077,6 +1135,7 @@
 
                                       android:orientation="vertical"
 
+                                      android:padding="10dp"
                                       >
 
                                       <ImageView
@@ -1096,7 +1155,7 @@
                                           android:layout_width="match_parent"
                                           android:layout_height="wrap_content"
 
-                                          android:text="dasdasdasd"
+                                          android:text="REGIÃO SUDESTE"
                                           android:textColor="@color/white"
                                           android:textSize="22dp"
                                           android:textStyle="bold"
@@ -1106,7 +1165,34 @@
                                           android:layout_marginBottom="10dp"
                                           android:gravity="center"
                                           />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
 
+                                          android:text="Com uma área de 925 511 km², equivalente a 10,85% do território nacional, a região sudeste é a mais populosa do país."
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="É formada por 4 estados: Espírito Santo, Minas Gerais, Rio de Janeiro e São Paulo."
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
                                   </LinearLayout>
 
 
@@ -1139,6 +1225,7 @@
 
                                       android:orientation="vertical"
 
+                                      android:padding="10dp"
                                       >
 
                                       <ImageView
@@ -1159,7 +1246,7 @@
                                           android:layout_width="match_parent"
                                           android:layout_height="wrap_content"
 
-                                          android:text="dasdasdasd"
+                                          android:text="REGIÃO SUL"
                                           android:textColor="@color/white"
                                           android:textSize="22dp"
                                           android:textStyle="bold"
@@ -1169,7 +1256,34 @@
                                           android:layout_marginBottom="10dp"
                                           android:gravity="center"
                                           />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
 
+                                          android:text="Com uma área de 576.774,310 km², o que corresponde a 6,76% do território brasileiro, a região sul é a menor do país."
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
+                                      <TextView
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+
+                                          android:text="É formada 3 estados: Paraná, Santa Catarina e Rio Grande do Sul."
+                                          android:textColor="@color/white"
+                                          android:textSize="22dp"
+                                          android:textStyle="bold"
+
+
+                                          android:layout_marginTop="10dp"
+                                          android:layout_marginBottom="10dp"
+                                          android:gravity="center"
+                                          />
                                   </LinearLayout>
 
 
