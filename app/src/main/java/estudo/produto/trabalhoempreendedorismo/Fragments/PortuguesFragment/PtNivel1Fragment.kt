@@ -6,22 +6,29 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import estudo.produto.trabalhoempreendedorismo.R
+import estudo.produto.trabalhoempreendedorismo.databinding.FragmentPtNivel1Binding
+import java.net.URL
 
 
 class PtNivel1Fragment : Fragment() {
+    private lateinit var binding : FragmentPtNivel1Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        binding = FragmentPtNivel1Binding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
 
+        binding.btVideoPt1.setOnClickListener {
+
+         URL("https://www.youtube.com/results?search_query=aulas+basicas+de+portugues").toURI()
+
+        }
+
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_pt_nivel1, container, false)
-    }
+
+
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?): View {return binding.root}
 
 
 }

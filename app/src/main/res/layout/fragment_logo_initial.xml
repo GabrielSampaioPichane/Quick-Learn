@@ -3,13 +3,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.LogoInitialFragment">
 
 
     <ImageView
+        android:id="@+id/logohehe"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="300sp"
         android:src="@drawable/ic_book"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="100dp"
         />
 
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:text="FAST LEARN"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+
+        android:gravity="center"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/logohehe"
+
+        android:layout_marginTop="10dp"
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
