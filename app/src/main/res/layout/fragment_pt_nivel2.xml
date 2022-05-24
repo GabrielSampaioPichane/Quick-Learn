@@ -35,7 +35,378 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/hello_blank_fragment"
+
+                    android:text="Pronome – Além do artigo, adjetivo e numeral há ainda outras palavras que, na frase, se relacionada ao substantivo: é o pronome (é a palavra que substitui ao acompanhar um substantivo, relacionando-o à pessoa discurso)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – Eu tomei chá gelado"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Substituindo ou acompanhando o substantivo, o pronome indica a pessoa do discurso (pessoa gramatical)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Substituindo ou acompanhando o substantivo, o pronome indica a pessoa do discurso (pessoa gramatical)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – Eu olhei os vidros embaçados"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="eu – indica a pessoa que fala (1° pessoa)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Classificação do Pronome – Há seis tipos de pronomes: possessivo, demonstrativos, indefinidos, interrogativos e relativos"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Pessoais – substituem os substantivos, indicando as pessoas do discurso. São eles: retos, oblíquos e de tratamento"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Pronomes pessoais de tratamento – representam a forma de tratar as pessoas: trato cortês (cerimonioso) ou informal (íntimo)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Pronome Pessoais – são palavras que, ao indicarem a pessoa gramatical (possuidor), acrescentam a ela a ideia de posse de algo (coisa possuída)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – Eu reagi quando tocaram no meu braço. (possuidor: 1° pessoa do singular)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Pronomes Demonstrativos – são palavras que indicam, no espaço ou no tempo, a posição de um ser em relação às pessoas do discurso"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Posição no tempo – Este caderno é meu este: indica o caderno próprio da pessoa que fala"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Posição no espaço – Esse ano que passou foi razoável esse: referindo-se a um passado próximo"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Pronomes Indefinidos - são palavras que se referem à 3ª pessoa do discurso, dando-lhe sentido vago (impreciso) ou expressando quantidade indeterminada. Alguém está chegando. (Alguém refere-se à 3ª pessoa sem identificá-la.) Compareceram muitos pais à reunião. (Muitos refere-se à 3ª pessoa sem determinar o número exato.)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Pronomes Interrogativos – são aqueles usados na formulação de uma pessoa direta ou indireta. Assim como os indefinidos, referem-se à 3ª pessoa do discurso"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – que dia é hoje?"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Pronomes Relativos – são pronomes relativos aqueles que representam nomes já mencionados anteriormente e como os quais se relacionam"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – O livro que estou lendo é muito bom!"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Verbo – quando se pratica uma ação, a palavra que representa essa ação, indicando o momento em que ela ocorre, é o verbo (é a palavra que expressa ação, estado e fenômeno da natureza situados no tempo)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – eu escrevo com rapidez"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
 
                     />
 

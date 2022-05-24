@@ -36,10 +36,506 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/hello_blank_fragment"
+
+                    android:text="MORFOLOGIA"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
 
                     />
+                <TextView
 
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="É o estudo dos vocábulos. São os mecanismos de formação e flexão dos vocábulos e separação em classes"
+
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Substantivo – É a palavra que dá nome ao ser "
+
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – O avião decolou (avião - substantivo)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Além de objeto, pessoa e fenômeno. O substantivo dá nome a outros seres:"
+
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Lugares (Santos, Cuiabá); Sentimentos (amor, ódio); Estado (tristeza, alegria); Qualidades (honestidade, sinceridade); Ações (corrida, pescaria)"
+
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Classificação dos Substantivos:"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Comum – é aquela que indica um nome comum a todos os seres da mesma espécie"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Coletivos – embora no singular indicam uma multiplicidade de seres da mesma espécie"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Próprio – é aquele que particulariza um ser da mesma espécie (possuem nomes próprios principalmente – pessoas, cidade, estado pais etc)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Concreto – é aqueles que indicam serres reais ou imaginários, de existência independente de outros seres"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Abstrato – é aquele que indica seres dependentes de outros seres"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Formação do Substantivo:"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Primitivo – é aquele que da origem a outras palavras"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Derivado – é aquele que se origina, que se forma de outra palavra"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Simples – é aquele formado por apenas um radical"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Composto – é aquele formado por mais de um radical"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Adjetivo – outra palavra que, na frase, se relaciona ao substantivo é o adjetivo (é a palavra que caracteriza o substantivo)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – O bom home ajudou-me"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="O adjetivo, ao caracterizar o substantivo, pode indicar:"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Qualidade; Estado; Lugar de origem; Primitivo (é aquele que não deriva de outra palavra); Derivado (é aquele que deriva de outra palavra geralmente de substantivos ou verbos); Simples (é aquele formado por um radical); Composto (é aquele formado por mais de um radical)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Numeral – entre as palavras que, na frase, se relacionam ao substantivo há também o número (é a palavra que se refere ao substantivo dando ideia de número)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – Comprou duas caixinhas de musica"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Numeral pode indicar:"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Quantidade; Ordem; Multiplicação; Fração; Cardial (indica uma quantidade determinada de seres – um, dois, três ...)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Ordinal (indica ordem “posição” que o ser ocupa numa série – primeiro, segundo, terceiro...)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Multiplicativo (expressa ideia de multiplicação, indicando quantos vezes aquela quantidade foi aumentada – dobro, triplo, quádruplo...)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="fracionário (expressa ideia de divisão, indicando em quantas partes a quantidade foi dividida – meio, terço, quarto...)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
                 <androidx.cardview.widget.CardView
 
                     android:id="@+id/bt_videoPt1"

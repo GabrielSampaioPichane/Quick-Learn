@@ -35,11 +35,688 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/hello_blank_fragment"
+
+                    android:text="Artigo - O artigo se classifica de acordo com a ideia que atribuí ao ser em relação a outros da mesma espécie."
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo - Um homem tocou a campainha. Era o técnico chamado para consertar a televisão."
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="O artigo um que se refere ao substantivo homem indica o ser de maneira imprecisa (indefinida): trata-se de um homem qualquer entre os demais."
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="O artigo o que se refere ao substantivo técnico indica o ser de maneira precisa (definida): trata-se de um ser específico (que já era esperado)."
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Portanto, o artigo classifica-se em:"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Definido – é aquele usado para determinar o substantivo de forma definida (precisa): o, a, os, as"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Indefinido - é aquele usado para determinar o substantivo de forma indefinida (vaga): um, uma, uns, umas"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Preposição – há palavra que, na frase, são usadas como elementos de ligação: uma delas é a preposição (é a palavra invariável que liga dois termos)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – penso em ti e dentro de mim estou completo"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Interjeição – há palavras que expressam surpresa, alegria, aplauso, emoções (é a palavra que procura expressar, de modo vivo, um sentimento)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – puxa! Isso é que foi jogo! (satisfação)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Conjunção – além da preposição, há outras palavras que, na frase, é usada como elemento de ligação: a conjunção (é a palavra que liga duas orações ou dois termos semelhantes de uma mesma oração)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – o mascate juntou a mercadoria e fugiu quando viu os fiscais"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Classificação da conjunção: as conjunções podem ser coordenativas e subordinativas."
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Coordenativas – ligam orações independentes (uma não depende de nenhum termo da outra)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Subordinativas - ligam orações dependentes (a segunda oração depende de um termo da primeira oração)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Conjunções coordenativas:"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Aditivas – exprimem ideia de adição, de soma "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Adversativas – exprimem oposição, constares, compensação "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Alternativas – exprimem alternativa, alternância, escolha "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Explicativas – exprimem explicação, razão, motivo "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Conclusiva – exprimem conclusão "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Conjunções subordinativas:"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Temporais – introduzem orações que exprimem ideia de tempo"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Causais – introduzem orações que dão ideia de causa"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Condicionais – introduzem oração que exprimem condições ou hipótese "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Proporcionais – introduzem oração que exprimem concordância, simultaneidade "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Finais – exprimem finalidade"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Consecutivas – exprimem consequência "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Concessivas – um certo sentido de contrariedade"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Comparativas – exprimem o segundo elemento de uma comparação"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Conformativas – exprimem conformidade de um fato com outro"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Integrantes – introduzem orações que equivalem a substantivos "
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Adverbio – há palavras que são usadas para indicar as circunstancias em que ocorre a ação verbal: são os advérbios (é a palavra que índia as circunstâncias em que ocorre a ação verbal)"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo - ... o pobre velhinho caiu espalhafatosamente"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Classificação do adverbio: Lugar, Tempo, Modo, Afirmação, Negação, Duvida, Intensidade."
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Locução adverbial – é o conjunto de duas ou mais palavra com valor de adverbio"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="Exemplo – Ele vira com certeza"
+
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+
+                    android:gravity="center"
+                    android:padding="7dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
 
                     />
 
-                <androidx.cardview.widget.CardView
+                     <androidx.cardview.widget.CardView
 
                     android:id="@+id/bt_videoPotenciaeRad"
 
