@@ -70,7 +70,7 @@
                     android:id="@+id/bt_soma"
                     android:layout_width="match_parent"
 
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
 
                     android:background="@drawable/shape_container_components"
 
@@ -82,7 +82,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
 
-                        android:layout_marginTop="35sp"
+
                         android:gravity="center"
                         android:paddingHorizontal="20sp"
                         android:text="@string/soma"
@@ -100,7 +100,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/bt_subtracao"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
 
 
@@ -120,7 +120,7 @@
                         android:textStyle="bold"
 
                         android:paddingHorizontal="20dp"
-                        android:layout_marginTop="35dp"
+
 
 
                         />
@@ -131,13 +131,13 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/bt_multiplicacao"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
+
                     android:layout_marginTop="20dp"
-
-
                     app:cardCornerRadius="20dp"
                     app:cardElevation="0dp"
 
+                    android:padding="10dp"
                     >
                     <TextView
 
@@ -151,7 +151,7 @@
                         android:textStyle="bold"
 
                         android:paddingHorizontal="20dp"
-                        android:layout_marginTop="35dp"
+
 
 
                         />
@@ -162,7 +162,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/bt_divisão"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
 
 
@@ -182,7 +182,7 @@
                         android:textStyle="bold"
 
                         android:paddingHorizontal="20sp"
-                        android:layout_marginTop="35sp"
+
 
 
                         />
@@ -193,12 +193,13 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/bt_potencia"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
 
                    android:padding="10sp"
                     app:cardCornerRadius="20dp"
                     app:cardElevation="0dp"
+
 
                     >
                     <TextView
@@ -210,11 +211,10 @@
                         android:gravity="center"
                         android:textColor="@color/lime"
                         android:textSize="35sp"
-                        android:text="@string/potencializa_o"
+                        android:text="POTENCIALIZAÇÃO E RADIAÇÃO"
                         android:textStyle="bold"
 
                         android:padding="12dp"
-
 
 
                         />
@@ -228,7 +228,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/bt_OrdemDasOperacoes"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
 
 
@@ -249,7 +249,7 @@
                         android:textStyle="bold"
 
                         android:padding="15sp"
-                        android:layout_marginTop="10dp"
+
 
                         />
 
@@ -261,7 +261,7 @@
                     android:id="@+id/bt_MinMaxMult"
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
 
                     android:background="@drawable/shape_container_components"
 
@@ -276,7 +276,7 @@
 
                         android:gravity="center"
                         android:padding="40sp"
-                        android:text="@string/maximo_e_minimo_multiplicador_comum"
+                        android:text="MMC E MDC"
                         android:textColor="@color/lime"
 
                         android:textSize="35sp"
@@ -293,7 +293,7 @@
                     android:id="@+id/bt_fracao"
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
 
                     android:background="@drawable/shape_container_components"
 
@@ -305,7 +305,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
 
-                         android:layout_marginTop="35dp"
+
                         android:gravity="center"
                         android:paddingHorizontal="25sp"
                         android:text="@string/fra_o"
@@ -325,7 +325,7 @@
                     android:id="@+id/bt_distributiva"
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
 
                     android:background="@drawable/shape_container_components"
 
@@ -337,7 +337,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
 
-                        android:layout_marginTop="35dp"
+
                         android:gravity="center"
                         android:paddingHorizontal="25sp"
                         android:text="@string/distributiva"
@@ -357,19 +357,22 @@
                     android:id="@+id/bt_exerciciosGerais"
                     android:layout_width="match_parent"
                     android:layout_marginTop="20dp"
-                    android:layout_height="120dp"
+                    android:layout_height="wrap_content"
 
                     android:background="@drawable/shape_container_components"
 
                     app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp">
+                    app:cardElevation="0dp"
+
+                    android:padding="10dp"
+                    >
 
                     <TextView
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
 
-                        android:layout_marginTop="21dp"
+
                         android:gravity="center"
                         android:padding="15sp"
                         android:text="@string/exerc_cios_gerais"
